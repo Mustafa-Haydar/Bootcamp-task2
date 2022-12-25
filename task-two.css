@@ -1,0 +1,169 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+}
+.container{
+    position: absolute;
+    background-color: black;
+
+}
+.container .text{
+    position: relative;
+    background-color: red;
+    height: 60px;
+}
+.container .text h2{
+    color: white;
+    margin-left: 35%;
+    font-size: 44px;
+    font-weight: bold;
+}
+.container .text a{
+    color: white;
+    margin-left: 88%;
+    position: absolute;
+    margin-top: -10px;
+    font-size: 20px;
+}
+.container .text .login{
+    margin-left: 80%;
+
+}
+.container img{
+    width: 200px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    overflow: hidden;
+}
+.container a{
+    text-decoration: none;
+    color: red;
+}
+.container p{
+    /* PLEASE TRY TO SOLVE TEXT DECORATION */
+    text-decoration: none!important;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+.container .box .title{
+    border-bottom: 1px solid white;
+}
+.container .box .title h1{
+    color: red;
+    margin-left: 450px;
+}
+.container .info-box{
+    margin-left: 20px;
+}
+.container .info-box span{
+    color: blue;
+    font-size: 20px;
+}
+.container .info-box p{
+    color: white;
+    padding: 10px 0 40px 0;
+}
+.container .info-box h3{
+    color: blue;
+    padding: 0 0 10px 0;
+}
+.container .info-box ul li{
+    color: white;
+    margin: 0 10px;
+    padding: 2px;
+}
+.container .box .title span{
+    color: red;
+    margin-left: 620px;
+    font-size: 44px;
+}
+.home-page{
+    background-color: #000;
+}
+.register{
+    width: 570px;
+    height: 670px;
+    background:#1c8adb;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.register .form img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.form h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.form input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="submit"]{
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid red;
+    background: linear-gradient(45deg, black, transparent);
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.form select{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form input[type="radio"]{
+    margin-right: 107px;
+}
+.form input[type="submit"], .form .back{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.form input[type="submit"]:hover, .form .back:hover{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.form a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.form .back{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form a:hover{
+    color: #39dc79;
+}
